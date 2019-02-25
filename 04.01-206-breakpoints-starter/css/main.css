@@ -1,0 +1,49 @@
+/* ----------- Column sizing ----------- */
+
+.column {
+	height: 200px;
+	width: 50%;
+	border-style: outset;
+	border-width: medium;
+	margin: auto;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+
+#col-1 {
+	background-color: #e8effc;
+}
+
+#col-2 {
+	background-color: #d1dffa;
+}
+
+#col-3 {
+	background-color: #bbd0f7;
+}
+
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+	body {
+		background: blue;
+	}
+
+	#col-1 {
+		background-color: #ffe6e6;
+	}
+
+	#col-2 {
+		background-color: #ffcccc;
+	}
+
+	#col-3 {
+		background-color: #ffb3b3;
+	}
+
+}
